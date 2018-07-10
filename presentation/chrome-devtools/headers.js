@@ -1,0 +1,5 @@
+exports.generate = () => {
+  return {
+    test: '😋'
+  }
+}
