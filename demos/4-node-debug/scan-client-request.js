@@ -1,4 +1,5 @@
 var request = require("request");
+const debug = require('debug')('scan-client-request')
 
 var contentType = "text/html";
 var body = "<html>" +
@@ -6,6 +7,7 @@ var body = "<html>" +
   "<body><p>yo</p></body>" +
   "</html>";
 
+debug('Hello')
 
 var headers = {
   uri: "http://www.google.com",

@@ -1,5 +1,5 @@
 exports.generate = () => {
   return {
-    test: '😋'
+    test: 'sjiojaemoji'
   }
 }
